@@ -2,9 +2,9 @@
 
 ---
 
-![](docs/images/Brbr_logo.png)
+![](docs/Brbr_logo.png)
 
-![](docs/images/Brbr_logos.png)
+![](docs/Brbr_logos.png)
 
 
 
@@ -26,7 +26,7 @@
 
 ---
 
-![image-20200529153832369](./docs/images/TechnologyStack.png)
+![image-20200529153832369](./docs/TechnologyStack.png)
 
 **백엔드** : Node.js, mongoDB, PostgreSQL, redis, Socket.io
 
@@ -131,9 +131,9 @@
 
 
 
-![](docs/images/Autonomous_mobile_robot_2.png)
+![](docs/Autonomous_mobile_robot_2.png)
 
-![image-20200527151141027](docs/images/mobile_robot_outline2.png)
+![image-20200527151141027](docs/mobile_robot_outline2.png)
 
 
 
@@ -143,7 +143,7 @@
 
 
 
-![mobile-robot-outline](docs/images/mobile_robot_outline.png)
+![mobile-robot-outline](docs/mobile_robot_outline.png)
 
 
 
@@ -153,7 +153,7 @@
 
 ---
 
-![image-20200527145519621](docs/images/drive_part_outline.png)
+![image-20200527145519621](docs/drive_part_outline.png)
 
 
 
@@ -206,7 +206,7 @@ https://en.wikipedia.org/wiki/Gimbal_lock
 
 
 
-![image-20200529151739377](docs/images/dead_reckoning.png)
+![image-20200529151739377](docs/dead_reckoning.png)
 
 
 
@@ -232,7 +232,7 @@ https://en.wikipedia.org/wiki/Rotary_encoder
 
 ---
 
-![image-20200527152619867](docs/images/odometry_part_outline.png)
+![image-20200527152619867](docs/odometry_part_outline.png)
 
 
 
@@ -251,7 +251,7 @@ https://en.wikipedia.org/wiki/Rotary_encoder
 
 **라이다(LiDAR, Light Detection and Ranging)**란 광원과 수신기를 사용하여 개체를 탐지하고 거리를 측정하는 센싱 기술입니다. 저희가 측정한 센서 정보는 아래와 같습니다.
 
-![image-20200529153832369](docs/images/lidar_test.png)
+![image-20200529153832369](docs/lidar_test.png)
 
 라이다의 작동 원리는, 방출된 적외선 펄스가 물체에 부딪혀 반사되어 돌아오면, 수신기가 돌아온 펄스를 감지하게 됩니다. 여기서 펄스를 전송한 후 수신하기까지의 시간을 측정해 라이다와 물체 사이의 간격을 측정할 수 있는데, 이를 자율 주행 로봇 이동에 사용하거나, Object Detection 등에 이용될 수 있습니다.
 
@@ -265,7 +265,7 @@ https://en.wikipedia.org/wiki/Lidar
 
 #### **2-2. 원격 조정**
 
-![image-20200529153832369](docs/images/remote_control.png)
+![image-20200529153832369](docs/remote_control.png)
 
 
 
@@ -282,7 +282,6 @@ https://en.wikipedia.org/wiki/Lidar
 본 프로젝트에서는 구글이 2016년 공개한 **카토그래퍼(Cartographer)**라는 SLAM 라이브러리를 ROS 환경에서 사용할 예정이며, 이 과정을 잘 나타낸 동영상이 다음과 같이 나와 있습니다.
 
 <iframe width="941" height="500" src="https://www.youtube.com/embed/DM0dpHLhtX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 **[ 참조 ]**
@@ -317,7 +316,7 @@ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.665.3032&rep=rep1&type=
 
 ---
 
-![communication part](./docs/images/communicationMap.png)
+![communication part](./docs/communicationMap.png)
 
 
 
@@ -337,7 +336,7 @@ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.665.3032&rep=rep1&type=
 
 본 프로젝트에서는 **Jetson Nano**에서 파이썬 기반의 오픈 소스 머신러닝 라이브러리인 **PyTorch**를 사용하며, **Fast R-CNN (Fast Region basedConvolutional Neural Network) 알고리즘**을 활용해 미리 훈련된 모델을 바탕으로 물체를 인식합니다.
 
-![](./docs/images/object_detection.png)
+![](./docs/object_detection.png)
 
 여기서 물체가 있을법한 영역을 빠른 속도로 찾아내는 알고리즘을 **Reason Proposal 알고리즘**이라고 하는데, 이를 이용해 빠르게 Classification 과정을 수행함으로써, Sliding Window 방식의 비효율성을 개선할 수 있습니다.
 
@@ -355,9 +354,9 @@ https://www.learnopencv.com/faster-r-cnn-object-detection-with-pytorch/
 
 **TSM(Temporal Shift Module)**은 3D CNN의 우수한 성능을 가지지만 2D CNN의 복잡성으로 구현할 수 있는, 고효율성으로 대기시간이 짧은 비디오 인식 및 객체 감지가 가능한 모델입니다.
 
-![](./docs/images/temporal_shift_module.png)
+![](./docs/temporal_shift_module.png)
 
-![](./docs/images/gesture.gif)
+![](./docs/gesture.gif)
 
 자율주행 서비스 로봇은 위와 같이 자율주행 로봇의 사용자가 손 제스처를 사용하여 로봇과 통신할 수 있도록 하는 것을 목표로 하고 있습니다.
 

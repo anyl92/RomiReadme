@@ -26,7 +26,7 @@
 
 ---
 
-![image-20200529153832369](./TechnologyStack.png)
+![image-20200529153832369](./images/TechnologyStack.png)
 
 **백엔드** : Node.js, mongoDB, PostgreSQL, redis, Socket.io
 
@@ -282,7 +282,6 @@ https://en.wikipedia.org/wiki/Lidar
 본 프로젝트에서는 구글이 2016년 공개한 **카토그래퍼(Cartographer)**라는 SLAM 라이브러리를 ROS 환경에서 사용할 예정이며, 이 과정을 잘 나타낸 동영상이 다음과 같이 나와 있습니다.
 
 <iframe width="941" height="500" src="https://www.youtube.com/embed/DM0dpHLhtX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 **[ 참조 ]**
 
